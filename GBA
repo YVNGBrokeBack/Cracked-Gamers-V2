@@ -1,1 +1,1 @@
-docker run --rm -it -v ${PWD}:/home/mgba/src mgba/windows:w32
+docker run --rm -it -v ${PWD}:/home/mgba/src mgba/3ds
