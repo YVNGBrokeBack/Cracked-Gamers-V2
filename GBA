@@ -1,7 +1,1 @@
-echo "# Cracked-Gamers-V2" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/YVNGBrokeBack/Cracked-Gamers-V2.git
-git push -u origin main
+docker run --rm -it -v ${PWD}:/home/mgba/src mgba/windows:w32
